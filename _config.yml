@@ -4,30 +4,30 @@
 
 # Site
 title: Shixue's Blog
-subtitle: 'A rookie in bioinformatics'
-description: 'Not known what to say here ...'
-keywords: 'NGS'
+subtitle: ''
+description: '科研狗，搬砖人'
+keywords:
 author: Shixue Gou
-language: zh-CN
-timezone: 'Asia/Shanghai'
+language: en
+timezone: ''
 
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://github.com/gsx-ucas
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
-
-## Local search
+# search 
 search:
   path: search.xml
   field: post
   content: true
   format: html
   template: ./search.xml
-  
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://gsx-ucas.github.io
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
 # Directory
 source_dir: source
 public_dir: public

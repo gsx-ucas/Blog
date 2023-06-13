@@ -1,2 +1,1 @@
-# myblog
-this is my blog
+# gsx-ucas.github.io
